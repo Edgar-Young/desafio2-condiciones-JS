@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/css/style.css" />
+    <title>Stickers</title>
+  </head>
+  <body>
+    <div class="container">
+      <section class="act-1">
+        <img id="sticker_logo" src="./asset/img/stickerlogo.webp" />
+      </section>
+      <hr />
+      <section class="act-2">
+        <h3>SELECCIONA TUS STICKERS</h3>
+        <div class="cards">
+          <div class="card">
+            <img src="./asset/img/bert.webp" alt="Bert" />
+            <p>Sticker Beto</p>
+            <input id="card1" type="number" min="0" max="10" />
+          </div>
+          <div class="card">
+            <img src="./asset/img/ernie.webp" alt="Enrique" />
+            <p>Sticker Enrique</p>
+            <input id="card2" type="number" min="0" max="10" />
+          </div>
+          <div class="card">
+            <img src="./asset/img/cookie.webp" alt="Cookie Monster" />
+            <p>Sticker Come galletas</p>
+            <input id="card3" type="number" min="0" max="10" />
+          </div>
+          <div class="card">
+            <img src="./asset/img/vamp.webp" alt="Conde" />
+            <p>Sticker Conde Contar</p>
+            <input id="card4" type="number" min="0" max="10" />
+          </div>
+        </div>
+        <button id="btn_verificar">Verificar</button>
+        <p id="txt-verificar"></p>
+      </section>
+      <hr />
+      <section class="act-3">
+        <h3>SELECCIONA EL PASSWORD</h3>
+        <div class="password">
+          <select name="digito1" id="digito1">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select name="digito2" id="digito2">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+          <select name="digito3" id="digito3">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <button id="btn-ingresar">Ingresar</button>
+        <p id="txt-password"></p>
+      </section>
+    </div>
+    <script src="./asset/js/script.js"></script>
+  </body>
+</html>
