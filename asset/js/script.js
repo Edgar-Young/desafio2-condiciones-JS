@@ -33,7 +33,7 @@ boton.addEventListener("click", () => {
     Number(stkr4.value);
 
   if (suma <= 10) {
-    verificar.innerHTML = `El total de la suma es: ${suma}`;
+    verificar.innerHTML = `Llevas ${suma} stickers`;
   } else {
     verificar.innerHTML = "Llevas demasiados stickers";
   }
